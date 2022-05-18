@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* div {
+        float: left;
+      } */
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <!-- 기본적으로 div 박스는 양 옆에 붙일 수 없다. -->
+      <!-- => div박스는 document라는 개념으로 봤을때,,
+    아무런 값도 없는 박스이다. -->
+      <div>
+        <label for="website">WEBSITE</label>
+        <input id="website" type="url" required />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input id="email" type="email" />
+      </div>
+      <div>
+        <input type="submit" value="보내기" />
+      </div>
+    </form>
+  </body>
+</html>

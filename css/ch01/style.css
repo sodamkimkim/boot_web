@@ -1,0 +1,21 @@
+/* css코드 작성(=> 파일 분리) */
+  /* 기본적으로 head안에 있어야 한다. */
+        /* css */
+        /* 
+        태그명{
+            속성 : 값;
+        }
+        */
+        h1{
+            color: blue;
+            font-size: 20px;
+            text-decoration: underline;
+            font-weight: 300px;
+            font-style: italic;
+            text-align: center;
+        }
+        address{
+            text-align: center;
+            margin:100px;
+            color: tomato;
+        }
