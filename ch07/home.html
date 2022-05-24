@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    /* 규칙1. 자식들을 마음대로 배치하기 위해서 부모 속성에 명시를 한다.(기본) 
+        규칙2.
+            주축 정렬(justify)
+            교차축 정렬(align)
+    */
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#second{
+background-color: blueviolet;
+}
+    </style>
+</head>
+<body>
+    <div></div>
+    <div id="second"></div>
+    <div></div>
+</body>
+</html>
